@@ -1,0 +1,59 @@
+html,body{
+    height:100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+.parent{
+    height:30%;
+    width:35%;
+    background-color: lightgrey;
+    border: 1px solid black;
+    /* margin-top: 50px; */
+    /* margin-left: 300px; */
+    /* margin:300px; */
+    position: relative;
+    top: 50px;
+    left: 300px;
+    
+}
+.child{
+    height: 90%;
+    width: 30%;
+    background-color: aqua;
+    border:1px solid black;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    rotate: ;
+}
+.chatbot{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    position: fixed;
+    /*top: 800px;*/
+    right: 5px;
+    bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    opacity:0.7;
+    border-radius: 20%;
+    position: fixed;
+}
+.stick{
+    height:10% ;
+    width:100%;
+    background-color: blue;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 10px;
+    left:50px;
+}

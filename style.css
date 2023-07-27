@@ -1,0 +1,39 @@
+
+        .header{
+            background-color: lightblue;
+            border:1px solid black;
+            margin-bottom: 100px;
+            height: 500px;
+            text-align: center;
+            
+        }
+        #edu{
+            background-color: lightcoral;
+            margin-bottom: 100px;
+            padding: 50px;
+
+        }
+        div{
+            background-color:lightgreen;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+ .container{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+ }
+ /* .container h4{
+   margin-right: 4px;
+ }
+
+     */
+.child1{
+    height: 300px;
+    width:20%;
+    background-color: aliceblue;
+}
+    

@@ -1,0 +1,25 @@
+html,body{
+    height:100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue; 
+} 
+.box{
+    height: 40%;
+    width: 40%;
+    position: fixed;
+    top:300px;
+    left:300px;
+    
+    background-color: #ACFADF;
+    border: 1px solid black;
+    transition: transform 0.3s ease-in-out; 
+     border-radius: 30px;
+    box-shadow: 50px 50px 50px 50px yellow ; 
+}
+.box:hover{
+    background-color: lightgreen;
+    transform: scale(1,1);
+
+}
