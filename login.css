@@ -1,0 +1,23 @@
+.page{
+    border: 2px solid black;
+    width: 25%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 150px;
+    background-color: rgb(255, 224, 252);
+}
+button{
+    background-color: lawngreen;
+    width: 95%;
+    float: left;
+    padding: 2px;
+}
+input[type=text],input[type=password]{
+    float: left;
+    width: 90%;
+    
+}
+
+b{
+    float: left;
+}
